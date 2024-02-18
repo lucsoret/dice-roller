@@ -4,7 +4,7 @@ from flask import Flask, jsonify
 from dice_roller.dice import Dice
 
 app = Flask(__name__)
-print("deux")
+print("trois")
 @app.route('/')
 def home():
     dice = Dice()
